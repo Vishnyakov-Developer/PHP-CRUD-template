@@ -1,0 +1,89 @@
+header {
+    text-align: center;
+    background: black;
+}
+
+.header_text {
+    color: white;
+    padding: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 31px;
+}
+
+.user_name {
+    margin: 20px 100px 0 100px;
+}
+
+.user_section {
+    margin: 30px;
+}
+
+.user {
+    text-align: center;
+    border-bottom: 3px solid silver;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background: silver;
+}
+
+td {
+    background: cornsilk;
+}
+
+table {
+    text-align: center;
+    margin: 0 auto;
+}
+
+input {
+    background: honeydew;
+    border: 2px silver solid;
+}
+
+form {
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+
+.p_from {
+    text-align: center;
+}
+
+.Delete {
+    text-decoration: none;
+    color: red;
+}
+
+a.active, /* активная/посещенная ссылка */
+a.hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color:coral;
+}
+
+.linker {
+    height: 30px;
+    text-align: center;
+    /* margin-top: 50px; */
+    background: wheat;
+    width: 20%;
+    margin: 65px auto 0 auto;
+    font-size: 15px;
+    padding-top: 8px;
+    border-radius: 5px;
+}
+
+.linker_a {
+    color: black;
+}
+
+.selected {
+    font-weight: bold;
+    color: blue;
+}
